@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><Root>
+      
+      
+            <block>
+            <blkName>Constant</blkName>
+            <xpcblkName>Constant</xpcblkName>
+            <SLblockPath>CasADi_test_Speedy/Constant</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[16, 1]</dim>  
+		  <SubSystemName>CasADi_test_Speedy</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>S-Function</blkName>
+            <xpcblkName>S-Function</xpcblkName>
+            <SLblockPath>CasADi_test_Speedy/S-Function</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 8]</dim>  
+		  <SubSystemName>CasADi_test_Speedy</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>CasADi_test_Speedy</SubSystemName>
+          </parameter>
+          </block>
+			  
+			  
+              <signal>
+              <sigName>Constant</sigName>
+              <xpcsigName>Constant</xpcsigName>
+              <sigWidth>16</sigWidth>
+              <sigDim>[16, 1]</sigDim>
+			  <SubSystemName>CasADi_test_Speedy</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>S-Function</sigName>
+              <xpcsigName>S-Function</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>CasADi_test_Speedy</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+
+</Root>
